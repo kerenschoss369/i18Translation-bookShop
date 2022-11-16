@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial";
+    margin: 0;
+}
+
+body.rtl {
+    direction: rtl;
+}
+
+body.rtl .btn-delete {
+    float: left;
+}
+
+button {
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.cell-sort {
+    cursor: pointer;
+}
+
+.book-rate {
+    margin: 15px;
+}
+
+
+/* .screen {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    display: none;
+} */
+
+.lang-flag {
+    width: 20px;
+    cursor: pointer;
+}
+
+.logo-container {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(13, 118, 204);
+    font-size: 2.5rem;
+}
+
+.book-image {
+    width: 100px;
+}
+
+.add-book-container {
+    padding: 10px;
+}
+
+.add-book-btn {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.add-book-form {
+    display: none;
+}
+
+.add-book-form input {
+    padding: 5px;
+}
+
+.books-table {
+    border-collapse: collapse;
+}
+
+.rate-center {
+    width: 150px;
+    margin: 40px auto;
+}
+
+.modal-content .modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
+.books-table td {
+    padding: 10px;
+}
+
+.books-table thead th {
+    text-align: center;
+    color: white;
+}
+
+.books-table tbody td {
+    text-align: center;
+}
+
+.update-book-form {
+    display: none;
+}
+
+.d-none {
+    display: none;
+}
+
+.rate-btn {
+    padding: 0;
+    margin: 0;
+}
+
+.rate-container button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* PAGINATION */
+
+.next-prev-btn {
+    margin: 0px 20px;
+}
+
+.pagination-container {
+    margin-bottom: 30px;
+}
+
+.page-btn {
+    margin: 2px;
+}
+
+.update-msg {
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+
+/* HELPERS */
+
+.btn {
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-weight: bold;
+    transition: .3s;
+    border: none;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
